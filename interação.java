@@ -1,0 +1,4 @@
+interface interação {
+    void interação();    
+}
+
