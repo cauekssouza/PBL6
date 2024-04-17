@@ -1,4 +1,5 @@
-interface interação {
-    void interação();    
+public interface interação {
+    void interagir();
 }
+
 
