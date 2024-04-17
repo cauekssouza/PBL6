@@ -1,50 +1,59 @@
+// Arquivo: Instagram.java
 public class Instagram {
     // Atributos mais importantes
-    protected String usuários;
-    protected int seguidores;
-    protected int publicação;
-    protected int reels;
-    protected int storys;
+    private String usuario;
+    private int seguidores;
+    private int publicacoes;
+    private int reels;
+    private int stories;
 
     // Construtor
-    public Instagram(String usuários, int seguidores, int publicação, int reels, int storys){
-        this.usuarios = usuários;
+    public Instagram(String usuario, int seguidores, int publicacoes, int reels, int stories) {
+        this.usuario = usuario;
         this.seguidores = seguidores;
-        this.publicação = publicação;
+        this.publicacoes = publicacoes;
         this.reels = reels;
-        this.storys = storys;
+        this.stories = stories;
     }
 
-    // Métodos  principais Getters e Setters
-    public String getUsuario(){
-        return usuários;
+    // Getters e Setters
+    public String getUsuario() {
+        return usuario;
     }
-    public void setUsuario(String  usuarios){
-        this.usuários = usuarios;
+
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
     }
-    public int getSeguidores(){
+
+    public int getSeguidores() {
         return seguidores;
     }
-    public void setSeguidores(int seguidores){
+
+    public void setSeguidores(int seguidores) {
         this.seguidores = seguidores;
     }
-    public int  getPublicação(){
-        return publicação;
-    }
-    public void  setPublicação(int publicação){
-        this.publicação = publicação;
-    }
-    public int getReels(){
-        return reels;
-    }
-    public void setReels(int reels){
-        this.reels = reels;
-    }
-    public int GetStory(){
-        return storys;
-    }
-    public void setStory(int storys){
-        this.storys = storys;
+
+    public int getPublicacoes() {
+        return publicacoes;
     }
 
+    public void setPublicacoes(int publicacoes) {
+        this.publicacoes = publicacoes;
+    }
+
+    public int getReels() {
+        return reels;
+    }
+
+    public void setReels(int reels) {
+        this.reels = reels;
+    }
+
+    public int getStories() {
+        return stories;
+    }
+
+    public void setStories(int stories) {
+        this.stories = stories;
+    }
 }
