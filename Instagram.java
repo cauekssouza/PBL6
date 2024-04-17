@@ -1,4 +1,3 @@
-// Arquivo: Instagram.java
 public class Instagram {
     // Atributos mais importantes
     private String usuario;
